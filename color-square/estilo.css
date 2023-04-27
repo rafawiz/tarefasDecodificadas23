@@ -1,0 +1,59 @@
+.square {
+    display: inline-block;
+    border: 0.5px solid rgb(247, 246, 246);
+    width: 2000px;
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+}
+
+.cor1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cor1canto {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cor2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cor3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(7, 173, 7);
+    margin: 0;
+    padding: 0;
+
+}
+
+.cor4 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+
+}
