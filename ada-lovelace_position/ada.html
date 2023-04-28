@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Lovelace - Position</title>
+
+    <style>
+     
+        #corpo {
+            position: fixed;
+            top: 100px;
+            left: 50px;
+            width: 400px;
+            height: 400px;
+            background-color: purple;
+            text-align: justify;
+            color: white;
+            padding-left: 300px;
+        }
+
+        #titulo {
+            position: fixed;
+            top: 110px;
+            left: 60px;
+            width: 340px;
+            height: 60px;
+            background-color: rgb(236, 6, 244);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-style: bold;
+            color: white;
+            z-index: 1;
+        }
+
+        #frame {
+            position: fixed;
+            top: 105px;
+            left: 55px;
+            width: 350px;
+            height: 390px;
+            background-color: rgb(246, 246, 246);
+        }
+
+        #frame img {
+            display: block;
+            position: absolute;
+            top: 70px;
+            left: 38px;            
+            max-width: 80%;
+            max-height: 80%;
+        }
+                    
+    </style>
+
+</head>
+<body>
+    <div id="corpo">
+        <pre>
+            Augusta Ada Byron King, Condessa de
+            Lovelace (nascida Byron, 10 de dezembro 
+            de 1815 — 27 de novembro de 1852), 
+            atualmente conhecida como Ada Lovelace, 
+            foi uma matemática e escritora inglesa. 
+            Hoje é reconhecida principalmente por 
+            ter escrito o primeiro algoritmo para 
+            ser processado por uma máquina, a 
+            máquina analítica de Charles Babbage.
+            Durante o período em que esteve 
+            envolvida com o projeto de Babbage, ela 
+            desenvolveu os algoritmos que 
+            permitiriam à máquina computar os 
+            valores de funções matemáticas, além de 
+            publicar uma coleção de notas sobre a 
+            máquina analítica. Por esse trabalho é 
+            considerada a primeira programadora de 
+            toda a história.
+        </pre>
+    </div>
+    <div id="titulo"><p>ADA LOVELACE</p></div>
+    <div id="frame"><img src="img/ada_helloworld.png" alt="imagem ada lovelace"></div>
+
+</body>
+</html>
