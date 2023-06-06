@@ -1,0 +1,44 @@
+body, p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* FLEXBOX */
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container > div {
+    flex: 1 1 200px;
+    margin: 0 10px;
+} */
+
+/*GRID*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 700px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    align-items: baseline;
+
+}
+
+
+
